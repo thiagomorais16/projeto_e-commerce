@@ -3,15 +3,9 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+     const [count, setCount] = useState(0);
 
-  return (
-    
-    <div className='app'>
-      olá pessoal
-    
-    </div>
-  )
+     return <div className="App">Ola mundo</div>;
 }
 
-export default App
+export default App;
