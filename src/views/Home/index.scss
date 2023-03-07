@@ -1,5 +1,4 @@
-.home{
- h1{
-    color: green;
- }
+@use "../../sass/variables" as *;
+.home {
+   background-color: $main-color;
 }
