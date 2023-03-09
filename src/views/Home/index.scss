@@ -1,4 +1,10 @@
 @use "../../sass/variables" as *;
+@use "../../sass/mixins" as * ;
+
 .home {
    background-color: $main-color;
+
+   h1{
+      @include flex-center;
+   }
 }
