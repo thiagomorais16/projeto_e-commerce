@@ -7,7 +7,6 @@ import Home from './views/Home/Home'
 import Products from './views/Products/Products';
 import Pay from './views/Pay/Pay';
 import { PRODUCT_MOCK } from './mock/mock';
-
 const data = PRODUCT_MOCK
 const router = createBrowserRouter([
   {
