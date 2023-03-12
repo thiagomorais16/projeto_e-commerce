@@ -33,5 +33,13 @@ export const PRODUCT_MOCK = [
     "title": "Saia Midi",
     "price": 34.00,
     "sizes": ["m"]
+
+  },
+  {
+    "id": 6,
+    "imgPath": "/images/6.jpg",
+    "title": "Saia Midi",
+    "price": 34.00,
+    "sizes": ["m"]
   }
 ]
