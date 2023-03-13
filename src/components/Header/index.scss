@@ -1,0 +1,14 @@
+ @use "../../sass/variables" as *;
+
+.header 
+{
+    width: 100%; 
+    height: 157px;
+    
+    background-color: $main-color;
+    #menu{
+        padding: 30px;
+        padding-bottom: 20px;
+    }
+    
+}
