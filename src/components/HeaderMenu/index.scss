@@ -1,0 +1,59 @@
+@use "../../sass/variables" as *;
+
+
+.headerMenu
+{
+    background-color:$main-color;
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav input{
+        width: 970px;
+        height: 48px;
+        margin-left: 10vh;
+        margin-right: 2vh;
+
+    }
+    nav input span{
+        right: 10vh;
+    }
+    .img2{
+        margin-left: 30px;
+        width: 60px;
+        height: 50px;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    li{
+        text-decoration: none ;
+        font-family:"raleway";
+        color: $fourth-color;
+        text-transform: capitalize;
+        padding: 15px 10px;
+    }
+
+
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+
+}
