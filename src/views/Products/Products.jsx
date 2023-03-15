@@ -4,7 +4,10 @@ import { PRODUCT_MOCK } from '../../mock/mock';
 
 const Products = () => {
   return (
+    <>
     <div>Products</div>
+    <span>teste</span>
+    </>
   )
 }
 
