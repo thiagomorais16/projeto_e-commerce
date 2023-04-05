@@ -16,8 +16,13 @@ const HeaderMenu = () => {
             <input type="text" placeholder='O que você está procurando?' />
           </label>
         </div>
-        <div id='carrinho'>
-          <a href="#"> <img src="/src/assets/image_carrinho.png" alt="carrinho" className='img2' /> </a>
+        <div id='carrinho' >
+          {/* <Link to={`/pay`}> */}
+            <img src="/src/assets/image_carrinho.png" alt="carrinho" className='img2' 
+            onClick={()=>
+              document.getElementById('dialogPay').showModal()
+            } />
+          {/* </Link> */}
         </div>
       </nav>
     </div>

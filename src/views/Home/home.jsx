@@ -5,6 +5,7 @@ import Products from '../Products/Products';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import { HomeBody } from '../../components/HomeBody/HomeBody';
 import Footer from '../../components/Footer/Footer';
+import Pay from '../Pay/Pay';
 
 const Home = (props) => {
 
@@ -12,6 +13,7 @@ const Home = (props) => {
     <section className='home'>
      <HeaderMenu/>
      <HomeBody productData={props.productData}/>
+     <Pay/>
      <Footer/>
     </section>
   )
