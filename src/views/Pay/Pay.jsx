@@ -6,7 +6,7 @@ import Close from '../../assets/close.png'
 const Pay = () => {
   return (
     <dialog id='dialogPay' className='dialog-pay' >
-    <div className='dialog-pay__container'>
+    <div className='dialog-pay__container'> 
       <img src={Close} alt="close" className='dialog-pay__close'
       onClick={()=>
         document.getElementById('dialogPay').close()

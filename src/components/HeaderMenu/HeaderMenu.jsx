@@ -23,7 +23,7 @@ const HeaderMenu = () => {
               document.getElementById('dialogPay').showModal()
             } />
           {/* </Link> */}
-        </div>
+        </div> 
       </nav>
     </div>
     <div id='baixo'>

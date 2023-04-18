@@ -10,7 +10,7 @@ import Pay from '../Pay/Pay';
 const Home = (props) => {
 
   return (
-    <section className='home'>
+    <section className='home'> 
      <HeaderMenu/>
      <HomeBody productData={props.productData}/>
      <Pay/>

@@ -1,6 +1,7 @@
 @use "../../sass/variables" as *;
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+
 .headerMenu
 {
     background-color:$main-color;
@@ -39,7 +40,6 @@
         border: 1px solid #B7B7B7;
         border-radius: 10px;
         background-color: $fourth-color;
-       
     }
     label img{
         width: 30px;
