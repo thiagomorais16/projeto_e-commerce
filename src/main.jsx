@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.scss'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.scss';
 import {createBrowserRouter, RouterProvider, } from "react-router-dom"; 
-import Login from './views/Login/Login'
-import Home from './views/Home/Home'
+import Login from './views/Login/Login';
 import Products from './views/Products/Products';
 import Pay from './views/Pay/Pay';
 import { PRODUCT_MOCK } from './mock/mock';
+import Home from './views/Home/home';
 
 const data = PRODUCT_MOCK
 
@@ -14,6 +14,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Login />,
+    
   },
    {
      path: "/home",
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
      element: <Products/>,
    },
    {
-     path: "/pay/:payId",
+     path: "/pay",
      element: <Pay/>,
    },
   
