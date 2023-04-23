@@ -3,3 +3,80 @@
     margin: 0px; /*margem externa */
     padding: 0px; /*margem interna */
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap');
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+
+    margin-top: 50px;
+}
+
+h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+    margin-bottom: 84px;
+}
+
+button{
+    width: 524px;
+    height: 48px;
+    margin-top:66px;
+
+    background: #0C70F2;
+    border-radius: 6px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+button a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+.App{
+    margin-top:80px;
+    width: 524px;
+    margin:auto;
+}
+
+label{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+input{
+    width: 524px;
+height: 52px;
+
+background: rgba(255, 255, 255, 0.9);
+border: 2px solid #7A7A7A;
+border-radius: 10px;
+margin-top: 12px;
+}
