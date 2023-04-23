@@ -22,7 +22,7 @@ const router = createBrowserRouter([
    }, 
    {
      path: "/products/:productId",
-     element: <Products/>,
+     element: <Products productData = {data}/>,
    },
    {
      path: "/pay",

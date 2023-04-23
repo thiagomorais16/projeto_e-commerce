@@ -1,8 +1,11 @@
 import React from "react";
 import "./index.scss"
+import { useParams } from 'react-router-dom';
 
 
-const FirstModal = ({setModal}) => {
+
+const FirstModal = ({setModal}, {data}) => {
+    
     return (
         <div className="modal">
             <div className="firstModal">
