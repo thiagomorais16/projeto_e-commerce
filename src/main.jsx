@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import {createBrowserRouter, RouterProvider, } from "react-router-dom"; 
-import Login from './views/Login/Login';
+import Login from './views/Login/login';
 import Products from './views/Products/Products';
 import Pay from './views/Pay/Pay';
 import { PRODUCT_MOCK } from './mock/mock';
