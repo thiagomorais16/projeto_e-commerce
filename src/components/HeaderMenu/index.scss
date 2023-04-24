@@ -1,0 +1,134 @@
+@use "../../sass/variables" as *;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+.headerMenu
+{
+    background-color:$main-color;
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+    nav{
+        display: flex;
+        margin-right: -10px;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    img{
+        padding: 14px 38px 10px -25px;
+    }
+
+    nav input{
+        display: flex;
+        align-items: center;
+        width: 940px;
+        padding: 11px 8px;
+        margin-left: 10vh;
+        margin-right: 2vh;
+        border: none;
+        }
+    nav input span{
+        right: 10vh;
+    }
+
+    label{
+        border: 1px solid #B7B7B7;
+        border-radius: 10px;
+        background-color: $fourth-color;
+    }
+    label img{
+        width: 30px;
+        right: 20px;
+        margin-right:-60px ;
+        padding-right: 20px;
+    }
+    .img2{
+        margin-left: 30px;
+        width: 71px;
+        height: 66px;
+        padding-right: 30px;
+        padding-top: 22px;
+    }
+    main{
+        display: flex;
+        padding: 0px 15px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    li{
+        text-decoration: none ;
+       
+        text-transform: capitalize;
+        padding: 15px 10px;
+    }
+
+
+}
+
+#cima{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0px 10px ;
+    margin-bottom: 28px;
+
+}
+#cima label{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    margin: 28px -4px 7px 15px;
+}
+#cima label ::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    padding-right: -20px;
+    margin-left: 0px ;
+}
+#logo{
+    width: 24%;
+    padding: 10px 15px 7px 34px;
+
+}
+#carrinho{
+    width: 10%;
+    cursor: pointer;
+}
+#baixo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#baixo ul{
+    width: 100%;
+}
+#baixo li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color:$fourth-color;
+    text-decoration: none ;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+li :hover{
+    font-weight: bold;
+    color:$second-color;
+}
