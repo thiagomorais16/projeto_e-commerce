@@ -2,7 +2,7 @@
 
 projeto do módulo 8 do curso tech1, um site de compra usando react
  
-### SOBRE
+## SOBRE
 Olá e bem-vindo ao projeto da DNC! Neste projeto, desenvolvemos um site de vendas utilizando React com o objetivo de criar um sistema dinâmico e fácil de usar para nossos usuários.
 
 Para melhorar a experiência do usuário, utilizamos rotas para navegação entre as páginas, permitindo que o usuário se mova facilmente pelo site e encontre os produtos que procura. Além disso, tornamos o site dinâmico, permitindo que os produtos sejam adicionados e removidos facilmente através de um painel administrativo.
@@ -11,7 +11,7 @@ Nossa equipe se esforçou para criar um design moderno e atraente, que se adapta
 
 Estamos animados para apresentar nosso projeto e esperamos que ele possa ajudar a aumentar as vendas e o sucesso do seu negócio. Sinta-se à vontade para navegar pelo site e experimentar todos os recursos que criamos!
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 * React
 * Node
 * Browser
@@ -20,7 +20,7 @@ Estamos animados para apresentar nosso projeto e esperamos que ele possa ajudar 
 * Google Fonts
 * Html
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 1. Clone o repositório
 2. Execute  para instalar as dependências
@@ -33,10 +33,10 @@ npm install
 npm start
 
 ```
-### Uso
+## Uso
 Acesse para visualizar o site de compras DNC.
 
-### Autores
+## Autores
 
 - [@thiagomorais16](https://github.com/thiagomorais16)
 - [@OlympioBelli](https://github.com/OlympioBelli)
