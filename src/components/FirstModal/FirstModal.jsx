@@ -1,24 +1,26 @@
 import React from "react";
 import "./index.scss"
-import { useParams } from 'react-router-dom';
 
 
-
-const FirstModal = ({setModal}, {data}) => {
-    
+const FirstModal = ({setModal, data}) => {
+    console.log(data);
     return (
         <div className="modal">
             <div className="firstModal">
                 <div className="col-1">
-                    <img src='' width="250px"/>
+                    <img src={data.imgPath} width="250px"/>
                 </div>
                 <div className="col-2">
                     <h4>Meu Carrinho</h4>
-                    <h3>Microsoft Xbox Series X | Preto</h3>
+                    <h3>{data.title}</h3>
                     <hr></hr>
-                    <p className="price">R$ 2.000,00</p>
-                    <p className="color">Cor: Preto</p>
-                    <p className="colorBox"></p>
+                    <p className="price">R$ {data.price}</p>
+                    <p className="color">Cor: {data.colors}</p>
+                    {data.colors.map((color) => (
+                        <p className="colorBox" style={{backgroundColor: color}}></p>
+                    ))
+
+                    }
                     <button className="keepBying-btn" onClick={()=> setModal(false)}>Continuar Comprando</button>
                     <button className="finishBuy-btn">Finalizar Compra</button>
                     
