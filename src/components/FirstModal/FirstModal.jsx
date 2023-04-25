@@ -1,10 +1,14 @@
 import React from "react";
 import "./index.scss"
+import { useState } from 'react'
+import LastModal from "../LastModal/LastModal";
+
 
 
 const FirstModal = ({setModal, data}) => {
-    console.log(data);
-    return (
+    const [lastModal, setLastModal] = useState(false);
+    
+    return  (lastModal == false ? (
         <div className="modal">
             <div className="firstModal">
                 <div className="col-1">
@@ -22,13 +26,14 @@ const FirstModal = ({setModal, data}) => {
 
                     }
                     <button className="keepBying-btn" onClick={()=> setModal(false)}>Continuar Comprando</button>
-                    <button className="finishBuy-btn">Finalizar Compra</button>
+                    <button className="finishBuy-btn" onClick={()=> setLastModal(true)}>Finalizar Compra</button>
                     
                 </div>
 
             </div>
         </div>
-    )
+    )  : <LastModal />) 
+                  
 }
 
 export default FirstModal;
