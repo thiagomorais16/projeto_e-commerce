@@ -20,7 +20,6 @@ const ProductDetail = ({ data }) => {
         </div>
         <div className="product-detail__right-side">
           <h1>{data.title}</h1>
-          <img src="../img_linha.png" alt="linha" />
           <h2>{data.price}</h2>
           <p>
             Cor:{" "}
