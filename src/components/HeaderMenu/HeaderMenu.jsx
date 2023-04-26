@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import dncLogo from"../../assets/image_logo.png";
+
 import "./index.scss"
 
 const HeaderMenu = () => {
@@ -8,7 +10,8 @@ const HeaderMenu = () => {
     <div id='cima'>
       <nav>
         <div id='logo'>
-        <img id='logo1' src="/src/assets/image_logo.png" alt="logo DNC" /> 
+         <img id='logo1' src={dncLogo} alt="logo DNC" />  
+        
         </div>
         <div className='search-bar'>
           <label htmlFor="search">
@@ -17,12 +20,12 @@ const HeaderMenu = () => {
           </label>
         </div>
         <div id='carrinho' >
-          {/* <Link to={`/pay`}> */}
+          
             <img src="/src/assets/image_carrinho.png" alt="carrinho" className='img2' 
             onClick={()=>
               document.getElementById('dialogPay').showModal()
             } />
-          {/* </Link> */}
+          
         </div> 
       </nav>
     </div>
