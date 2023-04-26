@@ -34,7 +34,7 @@ npm start
 
 ```
 ## Uso
-Acesse para visualizar o site de compras DNC.
+Acesse https://grupo8.vercel.app/ para visualizar o site de compras DNC.
 
 ## Autores
 
